@@ -36,7 +36,7 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - go build -v -o go-gin-app
+            - go build -v -o go-gin-my
             - artifact push project --force go-gin-my
   - name: Build
     task:
